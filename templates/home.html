@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='main_page_tree.css')}}" />
+</head>
+
+<body>
+    <section>
+        <h1 class="links">Welcome!</h1>
+        <p class="links">Warm welcome to the homepage for Suyog's Full stack assignment!</p>
+        <div class="profile-name">Start from below section</div>
+        <p><a href="{{ url_for('main_page_tree') }}" class="links">Click Me To Start</a></p>
+
+        <!-- bottom text-->
+        <div class="bottom-text">LinkTreeDemo</div>
+    </section>
+</body>
+
+</html>

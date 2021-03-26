@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Link Tree</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <link rel="stylesheet" href="static/main_page_tree.css">
+
+        <!-- Logo -->
+        <img class="logo" src="static/img/profile.jpg" />
+
+        <!--Profile name-->
+        <div class="profilename">@suyog</div>
+
+        <!-- Featured -->
+        <h2>Most visited</h2>
+        <a class="featured" href="{{ url_for('intro') }}">Quick Intro</a>
+
+        <!-- Popular Content -->
+        <h2>Popular Content</h2>
+        <a href="{{ url_for('education') }}" class="links1">Education</a>
+        <a href="https://www.linkedin.com/in/suyog-somavanshi-9032a9137/" class="links1">My LinkedIn (Login first to
+        access)</a>
+        <a href="https://www.google.com" class="links1">Google</a>
+        <a href="{{ url_for('home') }}" class="links1">Home</a>
+
+        <!-- Channels -->
+        <h2>Check out other sites</h2>
+        <div class="channels">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.youtube.com">YouTube</a>
+            <a href="https://www.amazon.com">Amazon</a>
+        </div>
+    </section>
+</body>
+
+</html>
